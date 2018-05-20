@@ -7,6 +7,14 @@ ul {
     list-style: none;
 }
 
+a {
+    color: grey;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
 
 .dear-successor {
     font-family: 'Slabo 27px', serif;
@@ -107,7 +115,7 @@ mark {
 
 
 #office {
-    padding: 110px;
+    padding: 0;
 }
 
 #right-arrow {
@@ -142,6 +150,9 @@ mark {
         justify-content: center;
     }
     
+    .dear-successor {
+        color: #fcb64c;
+    }
     
     #congratulations-message {
         display: flex;
@@ -203,7 +214,7 @@ mark {
     }
     
     #office {
-        padding: 0;
+        padding: 110px;
     }
     
     #last-container {
