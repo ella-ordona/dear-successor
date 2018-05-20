@@ -1,0 +1,214 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+ul {
+    list-style: none;
+}
+
+
+.dear-successor {
+    font-family: 'Slabo 27px', serif;
+    padding-top: 3.25rem;
+    font-size: 4rem;
+    line-height: 3rem;
+    color: blanchedalmond;
+}
+
+#title {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+.scrolling-wrapper {
+        overflow-x: hidden;
+        overflow-y: scroll;
+        white-space: normal;
+}
+
+.scrolling-wrapper .section {
+        display: block;
+        width: 100vw;
+        height: auto;
+}
+
+
+.header {
+    background: linear-gradient(rgba(107, 163, 252, 0.56), #fff);
+    height: 100vh;
+}
+
+.arrow {
+        color: #EBCDFF;
+}
+.container {
+    min-height: 100vh;
+}
+
+.col {
+    white-space: normal;
+}
+
+.letter-body {
+    line-height: 3rem;
+}
+
+.almond-bg {
+    background: blanchedalmond;
+}
+
+.almond-bg .circle {
+    background-color: blanchedalmond;
+}
+
+.almond-bg mark {
+    background-color: #EBCDFF;
+}
+.blockquote {
+    font-family: 'Slabo 27px', serif;
+    color: black;
+    font-size: 3rem;
+    line-height: 4rem;
+}
+
+.subhead {
+    font-family: 'Slabo 27px', serif;
+    font-size: 2rem;
+    line-height: 2rem;
+}
+
+.circle {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    border: 1px dashed rgba(107, 163, 252, 0.56);
+    -moz-border-radius: 30px; /* or 50% */
+    border-radius: 30px; /* or 50% */
+    
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 0;
+}
+
+mark {
+    background-color: blanchedalmond;
+}
+
+.purple {
+    background-color: #EBCDFF;
+}
+
+
+#office {
+    padding: 110px;
+}
+
+#right-arrow {
+    display: none;
+}
+
+.last {
+    display: none;
+}
+
+.last-section {
+    display: none;
+}
+
+#last-container {
+    display:none;
+}
+
+@media (min-width: 768px) {
+    .section {
+        padding: 0;
+        margin: 0;
+    }
+}
+/*fix this breakpoint later*/
+@media (min-width: 1024px) {
+    body {
+        overflow-y: hidden;
+    }
+    
+    #title {
+        justify-content: center;
+    }
+    
+    
+    #congratulations-message {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .scrolling-wrapper {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        height: 100vh;
+        overflow-y: hidden;
+    }
+    
+    .scrolling-wrapper .section {
+        display: inline-block;
+        
+    }
+    
+    .section {
+        width: 99vw;
+        height: 100vh;
+        flex: 0 0 auto;
+
+    }
+    
+    .scrolling-wrapper::-webkit-scrollbar, .scrolling-wrapper-flexbox::-webkit-scrollbar {
+        display: none;
+    }
+    
+    .container {
+        height: 100vh;
+        min-width: 100vw;
+    }
+    
+    .subhead {
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+    
+    .letter-body {
+        font-size: 1.5rem;
+        line-height: 4rem;
+    }
+    
+    
+    .last {
+        display: inline-block;
+        background-image: url(https://ella-ordona.github.io/assets/group-photo.jpg);
+        background-size: cover;
+        height: 100vh;
+    
+    }
+    
+    #right-arrow {
+        display: inline-block;
+    }
+    
+    #office {
+        padding: 0;
+    }
+    
+    #last-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
